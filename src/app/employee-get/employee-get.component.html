@@ -1,0 +1,26 @@
+<div class="float-right">
+  <button class="btn btn-success m-3" [routerLink]="['/employees/create']">Add Employee</button>
+</div>
+
+<table class="table table-hover">
+  <thead>
+  <tr>
+      <td class="font-weight-bold">Employee Name</td>
+      <td class="font-weight-bold">Job Position</td>
+      <td class="font-weight-bold">Payrate</td>
+      <td colspan="2"></td>
+  </tr>
+  </thead>
+
+  <tbody>
+    <tr *ngFor="let business of businesses">
+      <td>{{ business.employee_name }}</td>
+      <td>{{ business.job_position }}</td>
+      <td>{{ business.payrate }}</td>
+      <td><a [routerLink]="['edit', business._id]" class="btn btn-primary">Edit</a></td>
+      <td><a (click) = "deleteBusiness(business._id)" href="/employees" class="btn btn-danger text-white">Delete</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Note: Deleting an employee causes the page to render again to fetch the new updated database to allow the user to stay on the same page.</p>
