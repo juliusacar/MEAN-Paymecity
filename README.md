@@ -11,7 +11,7 @@ Paymecity is a basic mockup of Paylocity's payroll system for their employees by
 
 ## Web Technologies
 
-MongoDB. Express.js, AngularJS, Node.js, AWS Elastic Beanstalk, RESTful API, Bootstrap, Typescript
+MongoDB. Express.js, AngularJS, Node.js, AWS Elastic Beanstalk, RESTful API, Bootstrap, HTML, CSS, JavaScript/Typescript
 
 ## What can it be used for?
 Companies that requires managing their employees such as their names, positions, or payrates.
