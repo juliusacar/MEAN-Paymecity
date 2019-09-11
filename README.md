@@ -1,3 +1,7 @@
+##### Purpose
+
+> To learn the MEAN stack and CRUD operations in a Single-Page Application.
+
 # Paymecity
 
 Paymecity is a basic mockup of Paylocity's payroll system for their employees by storing their names, positions, or payrates.
