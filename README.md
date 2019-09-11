@@ -1,3 +1,5 @@
+Live Preview: [http://nodeangular-env.zqdvi2ntdr.us-east-2.elasticbeanstalk.com/dashboard](http://nodeangular-env.zqdvi2ntdr.us-east-2.elasticbeanstalk.com/dashboard)
+
 ##### Purpose
 
 > To learn the MEAN stack and CRUD operations in a Single-Page Application.
