@@ -1,27 +1,18 @@
-# PlaygroundApp
+# Paymecity
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.1.
+Paymecity is a basic mockup of Paylocity's management system built with MEAN stack and hosted on AWS Elastic Beanstalk.
 
-## Development server
+## About
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+-	Single-Page Application built with the MEAN stack to develop a basic mockup of Paylocity’s management system.
+-	CRUD operations with Mongo DB Atlas to be able to use it on the cloud.
+-	RESTful API for the data information of the employees in the database.
+-	Hosted on AWS with Elastic Beanstalk.
 
-## Code scaffolding
+## Web Technologies
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+MongoDB. Express.js, AngularJS, Node.js, AWS Elastic Beanstalk, RESTful API, Bootstrap, Typescript
 
-## Build
+## What can it be used for?
+Companies that requires managing their employees such as their names, positions, or payrates.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
