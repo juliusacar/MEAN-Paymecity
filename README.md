@@ -1,6 +1,6 @@
 # Paymecity
 
-Paymecity is a basic mockup of Paylocity's management system built with MEAN stack and hosted on AWS Elastic Beanstalk.
+Paymecity is a basic mockup of Paylocity's payroll system for their employees by storing their names, positions, or payrates.
 
 ## About
 
@@ -16,3 +16,5 @@ MongoDB. Express.js, AngularJS, Node.js, AWS Elastic Beanstalk, RESTful API, Boo
 ## What can it be used for?
 Companies that requires managing their employees such as their names, positions, or payrates.
 
+## In the future
+Will include features such as online check-ins, dashboard graphs, or requests of PTOs with RESTful APIs.
