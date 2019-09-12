@@ -2,7 +2,7 @@ Live Preview: [http://nodeangular-env.zqdvi2ntdr.us-east-2.elasticbeanstalk.com/
 
 ##### Purpose
 
-> To create a Single-Page Application with the MEAN stack that does CRUD operation.
+> To develop a Single-Page Application with the MEAN stack that does CRUD operation.
 
 # Paymecity
 
