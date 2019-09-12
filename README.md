@@ -6,13 +6,13 @@ Live Preview: [http://nodeangular-env.zqdvi2ntdr.us-east-2.elasticbeanstalk.com/
 
 # Paymecity
 
-Paymecity is a basic mockup of Paylocity's employee management system handling their basic information including payrolls.
+Paymecity is a basic mockup of Paylocity's employee management system.
 
 ## About
 
 -	Single-Page Application developed with the MEAN stack.
 -	CRUD operations with MongoDB Atlas for the backend of the database.
-- RESTful API for the basic information of the staff.
+- RESTful API for the information of the staff.
 -	Hosted on AWS with Elastic Beanstalk.
 
 ## Web Technologies
