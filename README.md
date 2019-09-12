@@ -1,26 +1,27 @@
-Live Preview: [http://nodeangular-env.zqdvi2ntdr.us-east-2.elasticbeanstalk.com/dashboard](http://nodeangular-env.zqdvi2ntdr.us-east-2.elasticbeanstalk.com/dashboard)
+# PlaygroundApp
 
-##### Purpose
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.1.
 
-> To learn the MEAN stack and CRUD operations in a Single-Page Application.
+## Development server
 
-# Paymecity
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-Paymecity is a basic mockup of Paylocity's payroll system for their employees by storing their names, positions, or payrates.
+## Code scaffolding
 
-## About
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
--	Single-Page Application built with the MEAN stack to develop a basic mockup of Paylocity’s management system.
--	CRUD operations with Mongo DB Atlas to be able to use it on the cloud.
--	RESTful API for the data information of the employees in the database.
--	Hosted on AWS with Elastic Beanstalk.
+## Build
 
-## Web Technologies
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-MongoDB. Express.js, AngularJS, Node.js, AWS Elastic Beanstalk, RESTful API, Bootstrap, HTML, CSS, JavaScript/Typescript
+## Running unit tests
 
-## What can it be use for?
-Companies that needs a modern management system hosted on the cloud to manage their staff effectively. By hosting the database on the cloud, business owners can reduce company cost by reducing the amount of papers used to store information which will also increase the productivity by being able to access the information needed fast and secured.
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## In the future
-Will include features such as online check-ins, dashboard graphs, or requests of PTOs with RESTful APIs.
+## Running end-to-end tests
+
+Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+
+## Further help
+
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).

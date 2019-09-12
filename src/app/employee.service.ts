@@ -9,7 +9,7 @@ import { Router } from '@angular/router';
 })
 export class EmployeeService {
 
-  uri = 'http://localhost:4000/employees';
+  uri = 'http://nodeangular-env.zqdvi2ntdr.us-east-2.elasticbeanstalk.com/employees';
 
   constructor(private http: HttpClient) { }
 

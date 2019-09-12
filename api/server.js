@@ -4,7 +4,11 @@ const express = require('express'),
     cors = require('cors'),
     mongoose = require('mongoose'),
 
+
 DB =  'mongodb+srv://admin-julius:Test123@cluster0-azhwi.mongodb.net/paymecityDB';
+
+const app = express();
+app.use(cors());
 
 const businessRoute = require('./routes/business.route');
 mongoose.Promise = global.Promise;
@@ -13,12 +17,23 @@ mongoose.connect(DB, { useNewUrlParser: true }).then(
   err => { console.log('Can not connect to the database'+ err)}
 );
 
-const app = express();
 app.use(bodyParser.json());
-app.use(cors());
 app.use('/employees', businessRoute);
 app.use('/', express.static(path.join(__dirname, "angular")));
-const port = process.env.PORT || 4000;
+const port = 8081;
+
+app.use((req, res, next) => {
+  res.setHeader("Access-Control-Allow-Origin", "*");
+  res.setHeader(
+    "Access-Control-Allow-Headers",
+    "Origin, X-Requested-With, Content-Type, Accept, Authorization"
+  );
+  res.setHeader(
+    "Access-Control-Allow-Methods",
+    "GET, POST, PATCH, PUT, DELETE, OPTIONS"
+  );
+  next();
+});
 
 app.use((req, res, next) => {
   const index = (path.join(__dirname, 'angular/index.html')).toString();
