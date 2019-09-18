@@ -23,4 +23,4 @@ MongoDB, Express.js, AngularJS, Node.js, AWS Elastic Beanstalk, RESTful API, Mon
 For companies in need of replacing their paper database into a modern database that is manageable and scalable for the company.
 
 ## In the future
-Will include more utility services such as check-ins by the employees, calculate their payrolls, graphical dashboars, etc.
+Will include more utility services such as check-ins by the employees, calculate their payrolls, graphical dashboards, etc.
