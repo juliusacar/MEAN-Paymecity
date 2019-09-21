@@ -1,4 +1,4 @@
-Live Preview: [http://nodeangular-env.zqdvi2ntdr.us-east-2.elasticbeanstalk.com/dashboard](http://nodeangular-env.zqdvi2ntdr.us-east-2.elasticbeanstalk.com/dashboard)
+### Live Preview: [http://nodeangular-env.zqdvi2ntdr.us-east-2.elasticbeanstalk.com/dashboard](http://nodeangular-env.zqdvi2ntdr.us-east-2.elasticbeanstalk.com/dashboard)
 
 ##### Purpose
 
@@ -29,3 +29,5 @@ Will include more utility services such as check-ins by the employees, calculate
 
 ## Snapshot of Paymecity:
 ![Paymecity](https://raw.githubusercontent.com/juliusacar/MEAN-Paymecity/master/paymecity.png)
+
+### Live Preview: [http://nodeangular-env.zqdvi2ntdr.us-east-2.elasticbeanstalk.com/dashboard](http://nodeangular-env.zqdvi2ntdr.us-east-2.elasticbeanstalk.com/dashboard)
