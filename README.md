@@ -25,7 +25,7 @@ For companies that wishes to update their system from paper database into the cl
 ## In the future
 Will include more utility services such as check-ins by the employees, calculate their payrolls, graphical dashboards, etc.
 
+> This web application is for demonstration purposes only.
+
+Snapshot of Paymecity:
 ![Paymecity](https://raw.githubusercontent.com/juliusacar/MEAN-Paymecity/master/paymecity.png)
-
-
-#### This web application is for demonstration purposes only.
