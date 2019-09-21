@@ -13,6 +13,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { EmployeeService } from './employee.service';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { DashboardEmployeeComponent } from './dashboard-employee/dashboard-employee.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import { DashboardEmployeeComponent } from './dashboard-employee/dashboard-emplo
     EmployeeEditComponent,
     HeaderComponent,
     DashboardComponent,
-    DashboardEmployeeComponent
+    DashboardEmployeeComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

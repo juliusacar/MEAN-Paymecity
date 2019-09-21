@@ -1,26 +1,27 @@
-Live Preview: [http://nodeangular-env.zqdvi2ntdr.us-east-2.elasticbeanstalk.com/dashboard](http://nodeangular-env.zqdvi2ntdr.us-east-2.elasticbeanstalk.com/dashboard)
+# PlaygroundApp
 
-##### Purpose
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.1.
 
-> To develop a Single-Page Application with the MEAN stack that does CRUD operation.
+## Development server
 
-# Paymecity
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-Paymecity is a basic mockup of Paylocity's employee management system.
+## Code scaffolding
 
-## About
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
--	Single-Page Application developed with the MEAN stack.
--	CRUD operations with MongoDB Atlas for the backend of the database.
-- RESTful API for the information of the staff.
--	Hosted on AWS with Elastic Beanstalk.
+## Build
 
-## Web Technologies
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-MongoDB, Express.js, AngularJS, Node.js, AWS Elastic Beanstalk, RESTful API, Mongoose, CORS, Body-Parser, Bootstrap
+## Running unit tests
 
-## What can it be use for?
-For companies in need of replacing their paper database into a modern database that is manageable and scalable for the company.
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## In the future
-Will include more utility services such as check-ins by the employees, calculate their payrolls, graphical dashboards, etc.
+## Running end-to-end tests
+
+Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+
+## Further help
+
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).

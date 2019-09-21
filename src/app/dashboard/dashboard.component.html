@@ -1,22 +1,130 @@
-<div class="pt-5">
-  <div class="jumbotron pb-1 pt-2">
-    <h1 class="display-4">Employee Management</h1>
-    <p class="lead">A Single-Page Application built with MEAN stack to process basic online CRUD operations with MongoDB Atltas.</p>
-    <hr class="my-4">
-    <p>
-      <b>MongoDB</b>: Prominent NoSQL database which makes the business more scalable. MongoDB saves data in a binary JSON format and does not require updating the entire table, which makes even easier to transfer the data between client and server.
-      <br><br>
-      <b>Express</b>: Express handles all the interactions between the frontend and the database, ensuring a smooth transfer of data to the end user. It’s designed to be used with Node.js and so continues the consistent use of JavaScript throughout the stack.
-      <br><br>
-      <b>Angular</b>: Angular is a front-end JavaScript framework for developing the single-page applications which comes with the handy features like the two-way data binding. Angular gives the absolute solution to develop fast and amazing front-end apps.
-      <br><br>
-      <b>Node.js</b>: A runtime environment for JavaScript execution and performs beyond a traditional web server. Node.js is built on Google Chrome’s V8 JavaScript runtime that helps build extremely ascendible and contemporary web applications at a rapid pace. Node.js provides a server-side solution, which enables the JavaScript implementation on both client and server-side.
-    </p>
+<div class="container pt-5 pb-5">
+  <!-- Hero Section -->
+  <div class="row">
+    <div class="col-md-6 title-text pt-2">
+      <h1>Paymecity</h1>
+      <h4>Employee Management System</h4>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio nihil architecto dolore exercitationem aut est voluptatum?</p>
+      <button [routerLink]="['/employees']" class="btn btn-action btn-lg shadow mb-5">Get Started</button>
+    </div>
+    <div class=col-md-6>
+      <img src="assets/img/hero-svg.svg" alt="" style="max-width: 450px;">
+    </div>
+  </div>
+  <!--  -->
+
+
+  <!-- About Us -->
+  <div class="row pt-5 pb-3" data-spy="scroll" data-target="#navbar-example2" data-offset="0">
+    <div class="col-md-12">
+      <h3 id="about-us">About us</h3>
+      <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia ducimus cupiditate amet numquam cumque consequatur eveniet et ipsa. Accusamus autem quo ab at mollitia incidunt saepe nulla deserunt voluptatum provident?</h6>
+    </div>
+  </div>
+  <!--  -->
+
+  <!-- Bootstrap Cards -->
+  <div class="row pt-4 pb-2">
+    <div class="col-md-4">
+      <div class="card shadow-cards" style="width: 18rem;">
+          <span class="text-center" style="font-size: 50px;">
+            <i class="fas fa-user-clock"></i>
+          </span>
+          <h5 class="card-title text-center">Employee Hours</h5>
+          <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card shadow-cards" style="width: 18rem;">
+          <span class="text-center" style="font-size: 50px;">
+            <i class="fas fa-search-location"></i>
+          </span>
+          <h5 class="card-title text-center">Geolocation Clocking</h5>
+          <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card shadow-cards" style="width: 18rem;">
+          <span class="text-center" style="font-size: 50px;">
+            <i class="fab fa-amazon-pay"></i>
+          </span>
+          <h5 class="card-title text-center">Online Payment</h5>
+          <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+    </div>
+  </div>
+  <!-- Seconds Row of Cards -->
+  <div class="row pt-4 pb-5">
+    <div class="col-md-4">
+      <div class="card shadow-cards" style="width: 18rem;">
+          <span class="text-center" style="font-size: 50px;">
+              <i class="fab fa-cloudversify"></i>
+          </span>
+          <h5 class="card-title text-center">On The Cloud</h5>
+          <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card shadow-cards" style="width: 18rem;">
+          <span class="text-center" style="font-size: 50px;">
+            <i class="fas fa-mobile-alt"></i>
+          </span>
+          <h5 class="card-title text-center">Mobile App</h5>
+          <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card shadow-cards" style="width: 18rem;">
+          <span class="text-center" style="font-size: 50px;">
+            <i class="fas fa-language"></i>
+          </span>
+          <h5 class="card-title text-center">Multilingual</h5>
+          <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+    </div>
   </div>
 
-  <p class="lead">
-    <a class="btn btn-dark btn-lg float-right" href="#" [routerLink]="['/employees']">Get Started</a>
-  </p>
+  <!-- Counter Stats Numbers -->
+  <div class="row pt-3 pb-3">
+      <div class="col-md-3 text-center">
+        <h3 class="count-title">123</h3>
+        <p class="font-weight-light">Lorem Ipsum</p>
+      </div>
+      <div class="col-md-3 text-center">
+        <h3 class="count-title">456</h3>
+        <p class="font-weight-light">Lorem Ipsum</p>
+      </div>
+      <div class="col-md-3 text-center">
+        <h3 class="count-title">789</h3>
+        <p class="font-weight-light">Lorem Ipsum</p>
+      </div>
+      <div class="col-md-3 text-center">
+        <h3 class="count-title">000</h3>
+        <p class="font-weight-light">Lorem Ipsum</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <button [routerLink]="['/employees']" class="btn btn-action btn-lg shadow">Test the Employee System</button>
+      </div>
+    </div>
+
+
 
 </div>
+
+
 

@@ -1,1 +1,72 @@
 /* You can add global styles to this file, and also import other style files */
+
+body {
+  color: #3F3D56;
+  background-color: #F5F8FD;
+}
+
+h1,h2,h3 {
+  color: #575A89;
+  font-size: 30px;
+}
+
+h3 {
+  font-weight: bold;
+}
+
+h4 {
+  color: #3F3D56;
+  font-size: 20px;
+}
+
+h5,h6 {
+  color: #575A89;
+  font-size: 22px;
+}
+
+h5 {
+  font-weight: 300;
+}
+
+h6 {
+  font-style: italic;
+  font-weight: 300;
+}
+
+.count-title {
+  font-size: 70px;
+}
+
+.shadow-cards {
+  box-shadow: 0 .5rem 1rem rgba(63,61,86,.10) !important;
+}
+
+.card {
+  margin: 0 auto;
+  float: none;
+  border-radius: 10px;
+  border: 1px solid #fff;
+}
+
+.card-body {
+  text-align: justify;
+  padding: 0px 20px 20px 20px !important;
+}
+
+
+.btn-action, .btn-action:hover, .btn-action:active, .btn-action:visited {
+  background-color: #1BB1DC !important;
+  border-color: #1BB1DC !important;
+  color: #fff !important;
+}
+
+.title-text h1 {
+  color: #575A89;
+  font-size: 80px;
+  margin-left: -5px;
+}
+
+.text-nav a {
+  color: #575A89 !important;
+  font-weight: 700;
+}
