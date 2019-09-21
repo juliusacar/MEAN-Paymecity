@@ -27,5 +27,5 @@ Will include more utility services such as check-ins by the employees, calculate
 
 ##### This web application is for demonstration purposes only.
 
-##Snapshot of Paymecity:
+## Snapshot of Paymecity:
 ![Paymecity](https://raw.githubusercontent.com/juliusacar/MEAN-Paymecity/master/paymecity.png)
